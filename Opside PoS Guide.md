@@ -82,7 +82,7 @@ Sizden tekrar mnemonicleri girmenizi isteyecek. Burada kelimelerin ilk 4 harfini
 
 ![alt text](https://i.hizliresim.com/lvjvwxy.png)
 
-![alt text](https://i.hizliresim.com/l4pm5ghz.png)
+![alt text](https://i.hizliresim.com/l4pm5ghz.jpeg)
 
 Böyle bir çıktı almalısınız. Herhangi bir tuşa basın.
 
