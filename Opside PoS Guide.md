@@ -122,7 +122,7 @@ opside-chain/show-geth-log.sh
 ![alt text](https://i.hizliresim.com/bdr46ya.png)
 
 
-NOT: Blok yüksekliğinin [number=48883]'e yakın olup olmadığını görmek için https://pre-alpha.opside.info'yu kontrol edin. evet ise, IDE'nin yatırılma zamanı gelmiştir.
+NOT: Blok yüksekliğinin son block'a yakın olup olmadığını görmek için https://pre-alpha.opside.info'yu kontrol edin. evet ise, IDE'nin yatırılma zamanı gelmiştir.
 
 
 - Nodeunuz sync olduktan sonra Bu siteye gidin: https://opside.network/validator/deposit
@@ -160,7 +160,7 @@ Opside Testnet ağını Metamask'a ekleyin.
 ![alt text](https://i.hizliresim.com/pq9kd95.png)
 
 
-Explorer: https://pre-alpha-beacon.opside.info/
+## Explorer: https://pre-alpha-beacon.opside.info/
 
 
 
