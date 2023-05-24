@@ -65,7 +65,7 @@ cd ./testnet-auto-install
 ./install-ubuntu-en-1.0.sh
 ```
 
-![alt text](https://i.hizliresim.com/qmc2vcs.jpeg)
+![alt text](https://i.hizliresim.com/qmc2vcs.png)
 
 
 Token withdraw için metamask adresinizi girin. Adresi girdikten sonra sizden parola oluşturmanızı isteyecek.
@@ -73,16 +73,16 @@ Parolanızı oluşturduktan sonra yürütme adresi olarak tekrar metamask adresi
 
 Size mnemonic (seed phrase) kelimelerini verecek. Bunları bir yere kaydetmeyi unutmayın. 
 
-![alt text](https://i.hizliresim.com/pyev1a6.jpeg)
+![alt text](https://i.hizliresim.com/pyev1a6.png)
 
 
 Sizden tekrar mnemonicleri girmenizi isteyecek. Burada kelimelerin ilk 4 harfini girin
 
-![alt text](https://i.hizliresim.com/7jml3bo.jpeg)
+![alt text](https://i.hizliresim.com/7jml3bo.png)
 
-![alt text](https://i.hizliresim.com/lvjvwxy.jpeg)
+![alt text](https://i.hizliresim.com/lvjvwxy.png)
 
-![alt text](https://i.hizliresim.com/l4pm5ghz.jpeg)
+![alt text](https://i.hizliresim.com/l4pm5ghz.png)
 
 Böyle bir çıktı almalısınız. Herhangi bir tuşa basın.
 
@@ -119,7 +119,7 @@ opside-chain/show-geth-log.sh
 
 - Örnek Çıktı
 
-![alt text](https://i.hizliresim.com/bdr46ya.jpeg)
+![alt text](https://i.hizliresim.com/bdr46ya.png)
 
 
 NOT: Blok yüksekliğinin [number=48883]'e yakın olup olmadığını görmek için https://pre-alpha.opside.info'yu kontrol edin. evet ise, IDE'nin yatırılma zamanı gelmiştir.
@@ -133,21 +133,21 @@ NOT: Blok yüksekliğinin [number=48883]'e yakın olup olmadığını görmek i�
 
 - Sitede Upload Deposit Data'ya kadar ilerleyin. Buradan winSCP ile indirdiğiniz data klasörünü yükleyin.
 
-![alt text](https://i.hizliresim.com/74p6s50.jpeg)
+![alt text](https://i.hizliresim.com/74p6s50.png)
 
 
 ## Stake İşlemi
 
 
-![alt text](https://i.hizliresim.com/f9lwjrc.jpeg)
+![alt text](https://i.hizliresim.com/f9lwjrc.png)
 
 Discord'dan token aldığınız metamask cüzdanınızı bağlayın.
 
-![alt text](https://i.hizliresim.com/32jskiy.jpeg)
+![alt text](https://i.hizliresim.com/32jskiy.png)
 
 Opside Testnet ağını Metamask'a ekleyin.
 
-![alt text](https://i.hizliresim.com/h6jwupt.jpeg)
+![alt text](https://i.hizliresim.com/h6jwupt.png)
 
 
 25000 IDE'yı stake edin.
@@ -155,9 +155,9 @@ Opside Testnet ağını Metamask'a ekleyin.
 ## Çıktılar
 
 
-![alt text](https://i.hizliresim.com/fdrz31b.jpeg)
+![alt text](https://i.hizliresim.com/fdrz31b.png)
 
-![alt text](https://i.hizliresim.com/pq9kd95.jpeg)
+![alt text](https://i.hizliresim.com/pq9kd95.png)
 
 
 Explorer: https://pre-alpha-beacon.opside.info/
