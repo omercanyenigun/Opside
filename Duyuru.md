@@ -20,7 +20,7 @@ Opside, Galxe ile ortaklaşa, kullanıcıların çeşitli görevlere özgürce k
 
 https://galxe.com/Opside/campaign/GCpHhUYvox adresini ziyaret ederek bizimle bu olağanüstü yolculuğa çıkın.
 
-![alt text](https://i.hizliresim.com/3wtg7j8.jpeg)
+![alt text](https://i.hizliresim.com/3wtg7j8.png)
 
 
 
