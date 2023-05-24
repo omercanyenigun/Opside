@@ -21,9 +21,22 @@ Opside, Alpha test ağında EIP-4844'ü desteklemeyi planlıyor ve ZK-Rollup'ın
 
 Genel olarak staking, ağ korumasına katılımı basitleştirir ve ademi merkeziyetçiliği destekler. Validatör nodelar, standart dizüstü bilgisayarlarda çalıştırılabilir ve bazı proxy staking pooları, kullanıcıların yeterli bir IDE bakiyesi olmadan stake yapmasına bile izin verir.
 
-NOT: vALİDATÖR olmak için, yatırma sözleşmesine 25000 IDE yatırmanız gerekir.
+NOT: Validatör olmak için, yatırma sözleşmesine 25000 IDE yatırmanız gerekir.
 
-## Kontrol Noktası Senkronizasyonu
+## Güncellemeler
+
+```python
+sudo apt-get update -y && sudo apt-get upgrade -y
+```
+
+```python
+sudo apt install -y build-essential libssl-dev cmake screen git htop
+```
+
+
+## Kontrol Noktası Senkronizasyonu (önerilir)
+
+Kontrol noktası senkronizasyonu yapılandırıldığında, beacon nodeunuz, genesis'ten senkronizasyon yapmak yerine yakın zamanda tamamlanmış bir kontrol noktasından senkronizasyona başlayacaktır. Bu, kurulumları, doğrulayıcı geçişlerini, kurtarmaları ve ağ dağıtımlarını çok daha hızlı hale getirebilir.
 
 ```python
 wget -c https://pre-alpha-download.opside.network/testnet-auto-install-v2.tar.gz 
@@ -31,3 +44,165 @@ tar -C ./ -xzf testnet-auto-install-v2.tar.gz
 chmod +x -R ./testnet-auto-install-v2
 cd ./testnet-auto-install-v2
 ```
+ 
+Eğer Kontrol Noktası Senkronizasyonundan Kurulum yapmak istemezseniz Genesis Sonkronizasyondan devam edin.
+
+
+## Genesis Senkronizasyonu
+
+Beacon nodeunuzun senkronizasyonunu başlangıçtan itibaren başlatın, saatler sürebilir.
+
+```python
+wget -c https://pre-alpha-download.opside.network/testnet-auto-install.tar.gz 
+tar -C ./ -xzf testnet-auto-install.tar.gz
+chmod +x -R ./testnet-auto-install
+cd ./testnet-auto-install
+```
+
+## Validatör İstemcisi
+
+```python
+./install-ubuntu-en-1.0.sh
+```
+
+![alt text](https://i.hizliresim.com/qmc2vcs.jpeg)
+
+
+Token withdraw için metamask adresinizi girin. Adresi girdikten sonra sizden parola oluşturmanızı isteyecek.
+Parolanızı oluşturduktan sonra yürütme adresi olarak tekrar metamask adresinizi girin. Tekrar şifrenizi girmenizi isteyecek.
+
+Size mnemonic (seed phrase) kelimelerini verecek. Bunları bir yere kaydetmeyi unutmayın. 
+
+![alt text](https://i.hizliresim.com/pyev1a6.jpeg)
+
+
+Sizden tekrar mnemonicleri girmenizi isteyecek. Burada kelimelerin ilk 4 harfini girin
+
+![alt text](https://i.hizliresim.com/7jml3bo.jpeg)
+
+![alt text](https://i.hizliresim.com/lvjvwxy.jpeg)
+
+![alt text](https://i.hizliresim.com/l4pm5ghz.jpeg)
+
+Böyle bir çıktı almalısınız. Herhangi bir tuşa basın.
+
+## Log Kontrol
+
+- Execution client logları
+
+```python
+opside-chain/show-geth-log.sh
+```
+
+- Consensus client logları
+
+```python
+opside-chain/show-beaconChain-log.sh
+```
+
+- Validatör logları
+
+```python
+opside-chain/show-validator-log.sh
+```
+
+## Validatör Oluşturma
+
+NOT: Beacon kurulumundan sonra, staking depozitonuzu göndermeden önce tamamen senkronize olduğunuzdan emin olun. Bu işlem birkaç gün sürebilir. (resmi uyarı)
+
+
+## Geth Logları
+
+```python
+opside-chain/show-geth-log.sh
+```
+
+- Örnek Çıktı
+
+![alt text](https://i.hizliresim.com/bdr46ya.jpeg)
+
+
+NOT: Blok yüksekliğinin [number=48883]'e yakın olup olmadığını görmek için https://pre-alpha.opside.info'yu kontrol edin. evet ise, IDE'nin yatırılma zamanı gelmiştir.
+
+
+- Nodeunuz sync olduktan sonra Bu siteye gidin: https://opside.network/validator/deposit
+
+- WinSCP veya benzeri uygulama ile nodeunuzun olduğu sunucuya bağlanıp istenilen klasörü bilgisayarınıza indirin. 
+
+- Dosya Dizini: /root/testnet-auto-install-v2/validator_keys/deposit_data
+
+- Sitede Upload Deposit Data'ya kadar ilerleyin. Buradan winSCP ile indirdiğiniz data klasörünü yükleyin.
+
+![alt text](https://i.hizliresim.com/74p6s50.jpeg)
+
+
+## Stake İşlemi
+
+
+![alt text](https://i.hizliresim.com/f9lwjrc.jpeg)
+
+Discord'dan token aldığınız metamask cüzdanınızı bağlayın.
+
+![alt text](https://i.hizliresim.com/32jskiy.jpeg)
+
+Opside Testnet ağını Metamask'a ekleyin.
+
+![alt text](https://i.hizliresim.com/h6jwupt.jpeg)
+
+
+25000 IDE'yı stake edin.
+
+## Çıktılar
+
+
+![alt text](https://i.hizliresim.com/fdrz31b.jpeg)
+
+![alt text](https://i.hizliresim.com/pq9kd95.jpeg)
+
+
+Explorer: https://pre-alpha-beacon.opside.info/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
