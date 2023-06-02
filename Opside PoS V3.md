@@ -3,7 +3,7 @@
 ![alt text](https://i.hizliresim.com/8nzb9w2.jpeg)
 
 ## Şu anda V2 kullanıyorum, V3'e geçmem gerekiyor mu?
-Validadçr sorunsuz çalışıyorsa geçiş yapmanıza gerek yoktur.
+Validadör sorunsuz çalışıyorsa geçiş yapmanıza gerek yoktur.
 
 ## Hangi durumlarda V3'e geçmem gerekiyor?
 
