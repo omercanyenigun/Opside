@@ -5,7 +5,7 @@
 ## Şu anda V2 kullanıyorum, V3'e geçmem gerekiyor mu?
 Validadçr sorunsuz çalışıyorsa geçiş yapmanıza gerek yoktur.
 
-##Hangi durumlarda V3'e geçmem gerekiyor?
+## Hangi durumlarda V3'e geçmem gerekiyor?
 
 Aşağıdaki durumlarda V3'e geçmeyi düşünebilirsiniz:
 
@@ -16,14 +16,14 @@ Aşağıdaki durumlarda V3'e geçmeyi düşünebilirsiniz:
 
 Şu anda V2 kullanıyorsanız
 
-1. Adım: Mnemonicleri yedeklediğinizden emin olun (24 kelime)
-2. Adım: V2 ile çalışan tüm istemcileri durdurun
-3. Adım: V3'ü yükleyin
-4. Adım: V3'ü çalıştırın ve mnemonicleri içe aktarın
-5. Adım: Validatörünüzü çalıştırmak için CLI istemlerini izleyin.
+- Mnemonicleri yedeklediğinizden emin olun (24 kelime)
+- Adım: V2 ile çalışan tüm istemcileri durdurun
+- Adım: V3'ü yükleyin
+- Adım: V3'ü çalıştırın ve mnemonicleri içe aktarın
+- Adım: Validatörünüzü çalıştırmak için CLI istemlerini izleyin.
 
 
-# v3 Bunları Destekler
+## v3 Bunları Destekler
 
 - Senkronizasyon Modunun seçilmesi desteklenir
 - Hızlı mod: Yüksek senkronizasyon hızı.
@@ -32,7 +32,7 @@ Aşağıdaki durumlarda V3'e geçmeyi düşünebilirsiniz:
 - Yeni mnemoniz oluşturma
 - Mevcut mnenonic'i içe aktarma
 
-# Programı Kurun ve Çalıştırın
+## Programı Kurun ve Çalıştırın
 
 ```python
 wget -c https://pre-alpha-download.opside.network/testnet-auto-install-v3.tar.gz && tar -C ./ -xzf testnet-auto-install-v3.tar.gz && chmod +x -R ./testnet-auto-install-v3 && cd ./testnet-auto-install-v3 && ./install-ubuntu-1.0.sh
