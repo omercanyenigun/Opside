@@ -42,7 +42,7 @@ wget -c https://pre-alpha-download.opside.network/testnet-auto-install-v3.tar.gz
 
 Hızlı mod için 1 Normal mod için 2 girin.
 
-## 2. Adım: Mnemoniz içe aktarma türünü seçin
+## 2. Adım: Mnemonic içe aktarma türünü seçin
 
 Eğer yeni kurulum yapıyorsanız yeni mnemonic oluşturun. Taşıma yapıyorsanız mnemonic içe aktarmayı seçin.
 
@@ -55,7 +55,7 @@ Size mnemonic (seed phrase) kelimelerini verecek. Bunları bir yere kaydetmeyi u
 ![alt text](https://i.hizliresim.com/pyev1a6.png)
 
 
-Sizden tekrar mnemonicleri girmenizi isteyecek. Burada kelimelerin ilk 4 harfini girin
+Sizden tekrar mnemonicleri girmenizi isteyecek. Burada ister bütün kelimeleri girin isterseniz kelimelerin sadece ilk 4 harfini girin
 
 ![alt text](https://i.hizliresim.com/7jml3bo.png)
 
