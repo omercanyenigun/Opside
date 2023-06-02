@@ -46,6 +46,26 @@ Hızlı mod için 1 Normal mod için 2 girin.
 
 Eğer yeni kurulum yapıyorsanız yeni mnemonic oluşturun. Taşıma yapıyorsanız mnemonic içe aktarmayı seçin.
 
+
+Token withdraw için metamask adresinizi girin. Adresi girdikten sonra sizden parola oluşturmanızı isteyecek.
+Parolanızı oluşturduktan sonra yürütme adresi olarak tekrar metamask adresinizi girin. Tekrar şifrenizi girmenizi isteyecek.
+
+Size mnemonic (seed phrase) kelimelerini verecek. Bunları bir yere kaydetmeyi unutmayın. 
+
+![alt text](https://i.hizliresim.com/pyev1a6.png)
+
+
+Sizden tekrar mnemonicleri girmenizi isteyecek. Burada kelimelerin ilk 4 harfini girin
+
+![alt text](https://i.hizliresim.com/7jml3bo.png)
+
+![alt text](https://i.hizliresim.com/lvjvwxy.png)
+
+![alt text](https://i.hizliresim.com/bsxm3fd.png)
+
+
+Böyle bir çıktı almalısınız. Herhangi bir tuşa basın.
+
 ## 3. Adım: Log Kontrolü
 
 NOT: Beacon kurulumundan sonra, staking depozitonuzu göndermeden önce tamamen senkronize olduğunuzdan emin olun.
